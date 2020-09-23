@@ -55,13 +55,13 @@ function isGameOver() {
     }
     if (countX === 5) {
       alert("Player 1 won!");
-      alert("Game is over, new game initializing...");
+      //alert("Game is over, new game initializing...");
       newGame();
       break;
     }
     if (countO === 5) {
       alert("Player 2 won!");
-      alert("Game is over, new game initializing...");
+      //alert("Game is over, new game initializing...");
       newGame();
       break;
     }
@@ -75,15 +75,15 @@ function checkForDraw() {
   if (movesMade === 25) {
     if (countX === 5) {
       alert("Player 1 won!");
-      alert("Game is over, new game initializing...");
+      //alert("Game is over, new game initializing...");
       newGame();
     } else if (countO === 5) {
       alert("Player 2 won!");
-      alert("Game is over, new game initializing...");
+      //alert("Game is over, new game initializing...");
       newGame();
     } else {
       alert("Draw!");
-      alert("Game is over, new game initializing...");
+      //alert("Game is over, new game initializing...");
       newGame();
     }
   }
