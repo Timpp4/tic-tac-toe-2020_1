@@ -18,8 +18,8 @@ var possibleWins = [
 var countX = 0;
 var countO = 0;
 var movesMade = 0;
-var playerTurn = parseInt(prompt("Are you player 1 or 2?", "Type 1 or 2"), 10);
-
+//var playerTurn = parseInt(prompt("Are you player 1 or 2?", "Type 1 or 2"), 10);
+var playerTurn = 1;
 function changeValue(tdID) {
   var square = document.getElementById(tdID).innerHTML;
   if (square === "X" || square === "O") {
@@ -96,5 +96,6 @@ function newGame() {
   countX = 0;
   countO = 0;
   movesMade = 0;
-  playerTurn = parseInt(prompt("Are you player 1 or 2?", "Type 1 or 2"), 10);
+  playerTurn = 1;
+  //playerTurn = parseInt(prompt("Are you player 1 or 2?", "Type 1 or 2"), 10);
 }
